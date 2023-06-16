@@ -1,0 +1,3 @@
+﻿  scheduler.cpp
+D:\CMP Year One\Semester 2\Phase 2 Final\FINAL(phase 1)\scheduler.cpp(129,23): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  FINAL(phase 1).vcxproj -> D:\CMP Year One\Semester 2\Phase 2 Final\x64\Debug\FINAL(phase 1).exe

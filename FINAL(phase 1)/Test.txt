@@ -1,0 +1,3862 @@
+Please enter the required mode:
+Interactive:1
+Step-by-step:2
+Silent:3
+1
+Current Timestep:1
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 1(P1), 2(P2)
+------------------------ TRM processes------------------------------------
+0 TRM:
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:2
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 4 RDY: 7, 11, 31, 32
+Processor 2[FCFS] 1 RDY: 8
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 9
+Processor 6[RR] 1 RDY: 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 1(P1), 2(P2), 3(P3), 4(P4), 5(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+0 TRM:
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:3
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 5 RDY: 7, 11, 32, 14, 34
+Processor 2[FCFS] 1 RDY: 8
+Processor 3[SJF] 1 RDY: 13
+Processor 4[SJF] 1 RDY: 15
+Processor 5[RR] 2 RDY: 9, 12
+Processor 6[RR] 1 RDY: 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 2(P2), 3(P3), 4(P4), 5(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+3 TRM: 31, 33, 1
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:4
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 11, 14
+Processor 2[FCFS] 1 RDY: 8
+Processor 3[SJF] 1 RDY: 13
+Processor 4[SJF] 1 RDY: 15
+Processor 5[RR] 2 RDY: 9, 12
+Processor 6[RR] 1 RDY: 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 7(P1), 3(P3), 4(P4), 5(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+6 TRM: 31, 33, 1, 32, 34, 2
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:5
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 12, 16, 20, 5
+Processor 6[RR] 3 RDY: 18, 8, 6
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 7(P1), 3(P3), 4(P4), 9(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+6 TRM: 31, 33, 1, 32, 34, 2
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:6
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 12, 16, 20, 5
+Processor 6[RR] 3 RDY: 18, 8, 6
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 7(P1), 36(P2), 3(P3), 4(P4), 9(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+6 TRM: 31, 33, 1, 32, 34, 2
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:7
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 1 RDY: 36
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 12, 16, 20, 5
+Processor 6[RR] 3 RDY: 18, 8, 6
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 7(P1), 21(P2), 3(P3), 4(P4), 9(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+6 TRM: 31, 33, 1, 32, 34, 2
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:8
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 3 RDY: 36, 22, 37
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 16, 20, 5, 9
+Processor 6[RR] 3 RDY: 8, 6, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 7(P1), 21(P2), 3(P3), 4(P4), 12(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+6 TRM: 31, 33, 1, 32, 34, 2
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:9
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 4 RDY: 36, 22, 37, 38
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 16, 20, 5, 9
+Processor 6[RR] 3 RDY: 8, 6, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 7(P1), 21(P2), 3(P3), 4(P4), 12(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+6 TRM: 31, 33, 1, 32, 34, 2
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:10
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 4 RDY: 36, 22, 37, 38
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 16, 20, 5, 9
+Processor 6[RR] 3 RDY: 8, 6, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 7(P1), 21(P2), 3(P3), 4(P4), 12(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+6 TRM: 31, 33, 1, 32, 34, 2
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:11
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 5 RDY: 36, 22, 37, 38, 23
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 20, 5, 9, 12
+Processor 6[RR] 3 RDY: 6, 10, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 7(P1), 21(P2), 3(P3), 4(P4), 16(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+6 TRM: 31, 33, 1, 32, 34, 2
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:12
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 3 RDY: 36, 22, 23
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 20, 5, 9, 12
+Processor 6[RR] 3 RDY: 6, 10, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 7(P1), 3(P3), 4(P4), 16(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+9 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:13
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 4 RDY: 22, 23, 24, 39
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 20, 5, 9, 12
+Processor 6[RR] 3 RDY: 6, 10, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 7(P1), 36(P2), 3(P3), 4(P4), 16(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+9 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:14
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 3 RDY: 11, 14, 35
+Processor 2[FCFS] 5 RDY: 22, 23, 24, 39, 36
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 5, 9, 12, 16
+Processor 6[RR] 3 RDY: 10, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 7(P1), 25(P2), 3(P3), 4(P4), 20(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+9 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:15
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 11, 14
+Processor 2[FCFS] 4 RDY: 22, 23, 24, 40
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 4 RDY: 5, 9, 12, 16
+Processor 6[RR] 3 RDY: 10, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 25(P2), 3(P3), 4(P4), 20(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+13 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:16
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 41
+Processor 2[FCFS] 4 RDY: 22, 23, 24, 40
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 5, 9, 12, 16, 11, 14
+Processor 6[RR] 3 RDY: 10, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 25(P2), 3(P3), 4(P4), 20(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+13 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:17
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 26
+Processor 2[FCFS] 3 RDY: 22, 23, 24
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 9, 12, 16, 11, 14, 20
+Processor 6[RR] 3 RDY: 18, 8, 6
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 3(P3), 4(P4), 5(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+16 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:18
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 27
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 9, 12, 16, 11, 14, 20
+Processor 6[RR] 6 RDY: 18, 8, 6, 22, 23, 24
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 26(P1), 3(P3), 4(P4), 5(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+16 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:19
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 27
+Processor 2[FCFS] 1 RDY: 42
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 9, 12, 16, 11, 14, 20
+Processor 6[RR] 6 RDY: 18, 8, 6, 22, 23, 24
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 26(P1), 28(P2), 3(P3), 4(P4), 5(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+16 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:20
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 27
+Processor 2[FCFS] 4 RDY: 42, 29, 43, 44
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 12, 16, 11, 14, 20, 5
+Processor 6[RR] 6 RDY: 8, 6, 22, 23, 24, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 26(P1), 28(P2), 3(P3), 4(P4), 9(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+16 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:21
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 27
+Processor 2[FCFS] 5 RDY: 42, 29, 43, 44, 45
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 12, 16, 11, 14, 20, 5
+Processor 6[RR] 6 RDY: 8, 6, 22, 23, 24, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 26(P1), 28(P2), 3(P3), 4(P4), 9(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+16 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:22
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 27
+Processor 2[FCFS] 3 RDY: 29, 44, 45
+Processor 3[SJF] 2 RDY: 13, 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 12, 16, 11, 14, 20, 5
+Processor 6[RR] 6 RDY: 8, 6, 22, 23, 24, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 28(P2), 4(P4), 9(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+20 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:23
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 3 RDY: 29, 44, 45
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 16, 11, 14, 20, 5, 9
+Processor 6[RR] 7 RDY: 6, 22, 23, 24, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 28(P2), 13(P3), 4(P4), 12(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+20 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:24
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 1 RDY: 29
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 6 RDY: 16, 11, 14, 20, 5, 9
+Processor 6[RR] 7 RDY: 6, 22, 23, 24, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 4(P4), 12(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+23 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:25
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 7 RDY: 16, 11, 14, 20, 5, 9, 29
+Processor 6[RR] 7 RDY: 6, 22, 23, 24, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 30(P1), 13(P3), 4(P4), 12(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+23 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:26
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 7 RDY: 11, 14, 20, 5, 9, 29, 12
+Processor 6[RR] 7 RDY: 22, 23, 24, 10, 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 4(P4), 16(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+23 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:27
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 47
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 7 RDY: 11, 14, 20, 5, 9, 29, 12
+Processor 6[RR] 7 RDY: 22, 23, 24, 10, 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 4(P4), 16(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+23 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:28
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 7 RDY: 11, 14, 20, 5, 9, 29, 12
+Processor 6[RR] 7 RDY: 22, 23, 24, 10, 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 4(P4), 16(P5), 6(P6)
+------------------------ TRM processes------------------------------------
+23 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:29
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 3 RDY: 22, 15, 17
+Processor 5[RR] 7 RDY: 14, 20, 5, 9, 29, 12, 16
+Processor 6[RR] 6 RDY: 24, 10, 27, 18, 8, 6
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 4(P4), 11(P5), 23(P6)
+------------------------ TRM processes------------------------------------
+23 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:30
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 3 RDY: 22, 15, 17
+Processor 5[RR] 7 RDY: 14, 20, 5, 9, 29, 12, 16
+Processor 6[RR] 6 RDY: 24, 10, 27, 18, 8, 6
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 4(P4), 11(P5), 23(P6)
+------------------------ TRM processes------------------------------------
+23 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:31
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 3 RDY: 22, 15, 17
+Processor 5[RR] 7 RDY: 14, 20, 5, 9, 29, 12, 16
+Processor 6[RR] 6 RDY: 24, 10, 27, 18, 8, 6
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 4(P4), 11(P5), 23(P6)
+------------------------ TRM processes------------------------------------
+23 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:32
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 3 RDY: 22, 15, 17
+Processor 5[RR] 7 RDY: 20, 5, 9, 29, 12, 16, 11
+Processor 6[RR] 6 RDY: 10, 27, 18, 8, 6, 23
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 30(P1), 46(P2), 13(P3), 14(P5), 24(P6)
+------------------------ TRM processes------------------------------------
+24 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:33
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 7 RDY: 20, 5, 9, 29, 12, 16, 11
+Processor 6[RR] 6 RDY: 10, 27, 18, 8, 6, 23
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 22(P4), 14(P5), 24(P6)
+------------------------ TRM processes------------------------------------
+24 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:34
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 7 RDY: 20, 5, 9, 29, 12, 16, 11
+Processor 6[RR] 6 RDY: 10, 27, 18, 8, 6, 23
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 22(P4), 14(P5), 24(P6)
+------------------------ TRM processes------------------------------------
+24 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:35
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 15, 17
+Processor 5[RR] 7 RDY: 5, 9, 29, 12, 16, 11, 14
+Processor 6[RR] 6 RDY: 27, 18, 8, 6, 23, 24
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+5 RUN: 30(P1), 46(P2), 13(P3), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+25 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:36
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 1 RDY: 17
+Processor 5[RR] 7 RDY: 5, 9, 29, 12, 16, 11, 14
+Processor 6[RR] 6 RDY: 27, 18, 8, 6, 23, 24
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 15(P4), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+25 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:37
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 1 RDY: 17
+Processor 5[RR] 7 RDY: 5, 9, 29, 12, 16, 11, 14
+Processor 6[RR] 6 RDY: 27, 18, 8, 6, 23, 24
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 15(P4), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+25 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:38
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 1 RDY: 17
+Processor 5[RR] 7 RDY: 9, 29, 12, 16, 11, 14, 20
+Processor 6[RR] 6 RDY: 18, 8, 6, 23, 24, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 15(P4), 5(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+25 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:39
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 2 RDY: 47, 49
+Processor 2[FCFS] 1 RDY: 48
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 1 RDY: 17
+Processor 5[RR] 7 RDY: 9, 29, 12, 16, 11, 14, 20
+Processor 6[RR] 6 RDY: 18, 8, 6, 23, 24, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+6 RUN: 30(P1), 46(P2), 13(P3), 15(P4), 5(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+25 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:40
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 1 RDY: 17
+Processor 5[RR] 7 RDY: 9, 29, 12, 16, 11, 14, 20
+Processor 6[RR] 6 RDY: 18, 8, 6, 23, 24, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 15(P4), 5(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+30 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:41
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 9, 17
+Processor 5[RR] 6 RDY: 12, 16, 11, 14, 20, 5
+Processor 6[RR] 6 RDY: 8, 6, 23, 24, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 15(P4), 29(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+30 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:42
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 9, 17
+Processor 5[RR] 6 RDY: 12, 16, 11, 14, 20, 5
+Processor 6[RR] 6 RDY: 8, 6, 23, 24, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 15(P4), 29(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+30 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:43
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 9, 17
+Processor 5[RR] 6 RDY: 12, 16, 11, 14, 20, 5
+Processor 6[RR] 6 RDY: 8, 6, 23, 24, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 15(P4), 29(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+30 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:44
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 9, 17
+Processor 5[RR] 6 RDY: 16, 11, 14, 20, 5, 29
+Processor 6[RR] 6 RDY: 6, 23, 24, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 15(P4), 12(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+30 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:45
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 9, 17
+Processor 5[RR] 6 RDY: 16, 11, 14, 20, 5, 29
+Processor 6[RR] 6 RDY: 6, 23, 24, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 15(P4), 12(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+30 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:46
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 9, 17
+Processor 5[RR] 6 RDY: 16, 11, 14, 20, 5, 29
+Processor 6[RR] 6 RDY: 6, 23, 24, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 15(P4), 12(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+30 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:47
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 3 RDY: 9, 6, 17
+Processor 5[RR] 6 RDY: 11, 14, 20, 5, 29, 12
+Processor 6[RR] 5 RDY: 24, 10, 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 13(P3), 16(P5), 23(P6)
+------------------------ TRM processes------------------------------------
+31 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:48
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 6, 17
+Processor 5[RR] 6 RDY: 11, 14, 20, 5, 29, 12
+Processor 6[RR] 5 RDY: 24, 10, 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 13(P3), 9(P4), 16(P5), 23(P6)
+------------------------ TRM processes------------------------------------
+31 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:49
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 6, 17
+Processor 5[RR] 6 RDY: 11, 14, 20, 5, 29, 12
+Processor 6[RR] 5 RDY: 24, 10, 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 13(P3), 16(P5), 23(P6)
+------------------------ TRM processes------------------------------------
+32 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:50
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 19
+Processor 4[SJF] 2 RDY: 24, 17
+Processor 5[RR] 6 RDY: 14, 20, 5, 29, 12, 16
+Processor 6[RR] 4 RDY: 27, 18, 8, 23
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 6(P4), 11(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+33 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:51
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 24, 17
+Processor 5[RR] 6 RDY: 14, 20, 5, 29, 12, 16
+Processor 6[RR] 4 RDY: 27, 18, 8, 23
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 6(P4), 11(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+33 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:52
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 24, 17
+Processor 5[RR] 6 RDY: 14, 20, 5, 29, 12, 16
+Processor 6[RR] 4 RDY: 27, 18, 8, 23
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 11(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+34 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:53
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 17
+Processor 5[RR] 6 RDY: 20, 5, 29, 12, 16, 11
+Processor 6[RR] 4 RDY: 18, 8, 23, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 24(P4), 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+34 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:54
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 17
+Processor 5[RR] 6 RDY: 20, 5, 29, 12, 16, 11
+Processor 6[RR] 4 RDY: 18, 8, 23, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 24(P4), 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+34 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:55
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 17
+Processor 5[RR] 6 RDY: 20, 5, 29, 12, 16, 11
+Processor 6[RR] 4 RDY: 18, 8, 23, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:56
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 6 RDY: 5, 29, 12, 16, 11, 14
+Processor 6[RR] 4 RDY: 8, 23, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 20(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:57
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 6 RDY: 5, 29, 12, 16, 11, 14
+Processor 6[RR] 4 RDY: 8, 23, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 20(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:58
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 6 RDY: 5, 29, 12, 16, 11, 14
+Processor 6[RR] 4 RDY: 8, 23, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 20(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:59
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 5
+Processor 5[RR] 5 RDY: 12, 16, 11, 14, 20
+Processor 6[RR] 4 RDY: 23, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 29(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:60
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 5
+Processor 5[RR] 5 RDY: 12, 16, 11, 14, 20
+Processor 6[RR] 4 RDY: 23, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 29(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:61
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 5
+Processor 5[RR] 5 RDY: 12, 16, 11, 14, 20
+Processor 6[RR] 4 RDY: 23, 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 29(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:62
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 16, 11, 14, 20, 29
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 12(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:63
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 16, 11, 14, 20, 29
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 12(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:64
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 16, 11, 14, 20, 29
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 12(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:65
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 11, 14, 20, 29, 12
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 16(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:66
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 11, 14, 20, 29, 12
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 16(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:67
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 11, 14, 20, 29, 12
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 16(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:68
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 14, 20, 29, 12, 16
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 11(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:69
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 14, 20, 29, 12, 16
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 11(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:70
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 14, 20, 29, 12, 16
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 11(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:71
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 20, 29, 12, 16, 11
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:72
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 20, 29, 12, 16, 11
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:73
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 20, 29, 12, 16, 11
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:74
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 29, 12, 16, 11, 14
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 17(P4), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+35 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:75
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 5, 23
+Processor 5[RR] 5 RDY: 29, 12, 16, 11, 14
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+36 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:76
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 23
+Processor 5[RR] 5 RDY: 29, 12, 16, 11, 14
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 5(P4), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+36 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:77
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 29, 23
+Processor 5[RR] 4 RDY: 16, 11, 14, 20
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 12(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+37 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:78
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 23
+Processor 5[RR] 4 RDY: 16, 11, 14, 20
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 29(P4), 12(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+37 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:79
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 23
+Processor 5[RR] 4 RDY: 16, 11, 14, 20
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 12(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+38 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:80
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 16
+Processor 5[RR] 3 RDY: 14, 20, 12
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 23(P4), 11(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+38 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:81
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 16
+Processor 5[RR] 3 RDY: 14, 20, 12
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 23(P4), 11(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+38 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:82
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 16
+Processor 5[RR] 3 RDY: 14, 20, 12
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 23(P4), 11(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+38 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:83
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 16
+Processor 5[RR] 3 RDY: 20, 12, 11
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+39 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:84
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 3 RDY: 20, 12, 11
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 16(P4), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+39 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:85
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 3 RDY: 20, 12, 11
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 16(P4), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+39 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:86
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 3 RDY: 12, 11, 14
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 16(P4), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+39 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:87
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 3 RDY: 12, 11, 14
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+40 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:88
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 3 RDY: 12, 11, 14
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+40 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:89
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 2 RDY: 12, 11
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+40 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:90
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 11
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 12(P4), 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+40 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:91
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 1 RDY: 11
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 3 RDY: 18, 8, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+41 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:92
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+4 RUN: 19(P3), 11(P4), 20(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+41 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:93
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 20(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+42 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:94
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 3 RDY: 8, 10, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 20(P5), 18(P6)
+------------------------ TRM processes------------------------------------
+42 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:95
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+42 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:96
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+42 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:97
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 3 RDY: 10, 27, 18
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+42 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:98
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+42 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:99
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 3 RDY: 27, 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+42 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:100
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 27
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 18, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 19(P3), 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+42 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:101
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 18
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+43 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:102
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 18(P3), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+43 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:103
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 18(P3), 14(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+43 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:104
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:105
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:106
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:107
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 8, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 14(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:108
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 8, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 14(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:109
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 8, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 14(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:110
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:111
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:112
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:113
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:114
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:115
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 20
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 14(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:116
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 8, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:117
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 8, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:118
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 1 RDY: 14
+Processor 6[RR] 2 RDY: 8, 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 10(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:119
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 14
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:120
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 14(P3), 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:121
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 2 RDY: 27, 10
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 14(P3), 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:122
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 14(P3), 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+44 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:123
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+45 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:124
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 2 RDY: 10, 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+45 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:125
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 10
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+45 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:126
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 10(P3), 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+45 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:127
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 10(P3), 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+45 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:128
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+3 RUN: 10(P3), 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+45 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:129
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:130
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:131
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:132
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:133
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:134
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:135
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:136
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:137
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:138
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:139
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:140
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:141
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:142
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:143
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:144
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:145
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:146
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+
+11
+Current Timestep:147
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:148
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:149
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:150
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:151
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:152
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:153
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:154
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:155
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:156
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:157
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:158
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:159
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:160
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:161
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:162
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:163
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:164
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:165
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:166
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:167
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:168
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+
+1
+Current Timestep:169
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:170
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:171
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:172
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:173
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:174
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:175
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:176
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:177
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:178
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:179
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:180
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:181
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:182
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:183
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:184
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:185
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 20
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:186
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P3), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:187
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P3), 8(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:188
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 20(P3), 27(P6)
+------------------------ TRM processes------------------------------------
+46 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:189
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:190
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:191
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 8(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:192
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 8(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:193
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 8(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:194
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:195
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:196
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 8
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:197
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 8(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:198
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 8(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:199
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 1 RDY: 27
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 8(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:200
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 1 RDY: 8
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:201
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:202
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:203
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:204
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:205
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:206
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:207
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:208
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:209
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:210
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:211
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:212
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:213
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:214
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:215
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:216
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:217
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:218
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:219
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:220
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:221
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:222
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:223
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:224
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:225
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:226
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:227
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P5), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:228
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 8
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:229
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P3), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:230
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P3), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:231
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+2 RUN: 8(P3), 27(P6)
+------------------------ TRM processes------------------------------------
+47 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:232
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:233
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:234
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:235
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:236
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:237
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:238
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P6)
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:239
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 1 RDY: 27
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+0 RUN:
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+1
+Current Timestep:240
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+1 RUN: 27(P3)
+------------------------ TRM processes------------------------------------
+48 TRM: 31, 33, 1, 32, 34, 2, 37, 38, 21, 35, 39, 36, 7, 40, 41, 25, 42, 43, 26, 3, 44, 45, 28, 4, 22, 48, 49, 46, 47, 30, 15, 9, 13, 6, 24, 17, 5, 29, 23, 16, 12, 11, 19, 18, 14, 10, 20, 8
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
+11
+Current Timestep:241
+-------------------RDY Processes--------------------------
+Processor 1[FCFS] 0 RDY:
+Processor 2[FCFS] 0 RDY:
+Processor 3[SJF] 0 RDY:
+Processor 4[SJF] 0 RDY:
+Processor 5[RR] 0 RDY:
+Processor 6[RR] 0 RDY:
+------------------------ BLK processes------------------------------------
+0 BLK:
+------------------------ RUN processes------------------------------------
+0 RUN:
+------------------------ TRM processes------------------------------------
+0 TRM:
+Press -1 to exit or Press Any other Key To Continue To The Next Step!
